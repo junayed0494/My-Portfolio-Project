@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.btn{
+    color:white;
+    background-color:#fd6e0a;
+    padding:18px 35px;
+    border-radius: 5px;
+    border: none;
+    font-size:20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+header{
+    padding-top: 50px;
+    background-color: #fff8f3;
+    background-image:url("images/developer.png"), url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, right bottom;
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:71%;
+    margin:0 auto;
+}
+
+nav .logo h1{
+    font-size:60px;
+  font-family:"Tagesschrift", system-ui;
+}
+
+nav .menu{
+    display: flex;
+    align-items: center;
+    list-style:none;
+    gap:51px;
+}
+
+nav .menu a{
+    font-size:20px;
+    color: #474747;
+    text-decoration:none;
+}
+
+
+#hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:60px 50px 0 250px;
+
+}
+
+#hero-section .text-container{
+    width:800px;
+    padding: 0 10px;
+}
+
+.text-container h3{
+    color: #474747;
+    font-size:35px;
+    margin-bottom:30px;
+}
+
+.text-container h1{
+    font-size:70px;
+    margin-bottom: 30px; 
+}
+
+.text-container p{
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px; 
+    margin-bottom: 30px;   
+}
+
+
+#hero-section .img-container{
+    width: 700px;
+    padding: 0 20px;
+}
+
+#hero-section .img-container img{
+    width:420px;
+    vertical-align: middle;
+}
+
+
+
+
+#about-section .about-container{
+    width: 72%;
+    margin: 100px auto;
+    background-color: #fff8f3;
+    padding:131px 156px;
+}
+
+ .section-heading h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+ }
+
+ .section-heading p{
+    color:#757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+ }
+
+
+ .about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+ }
+
+.about-info .info-card h3{
+    font-size: 20px;
+    color: #474747;
+  font-family:"Tagesschrift", system-ui;  
+  padding-top: 20px;  
+}
+
+.about-info .info-card p{
+    font-size: 20px;
+}
+
+#skills .skills-container{
+    width:71%;
+    margin:100px auto;
+}
+
+.skills-container .skills-header{
+    padding:0 60px;
+    text-align: center;
+}
+
+.skills-container .skills-header h1{
+    font-size: 40px;
+    margin-bottom: 28px;
+}
+
+.skills-container .skills-header p{
+    font-size: 20px;
+    color:#757575;
+    line-height: 30px;
+    margin:26px 0;
+}
+
+.skills-container .skills-cards{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.skills-container .skills-cards .card{
+    padding:20px;
+    box-shadow: 0 0 8px  #f3f0ed;
+}
+
+.skills-cards .card p{
+    font-size:18px;
+    color:#757575;
+    line-height: 30px;
+}
+
+.skills-cards .card img{
+    margin:10px auto;
+}
